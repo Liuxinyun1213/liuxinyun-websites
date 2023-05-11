@@ -1,0 +1,41 @@
+/* 设置页面背景颜色 */
+body {
+    background-color: #f2f2f2;
+  }
+  
+  /* 定义圆形的样式 */
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    animation-name: color-change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  /* 定义动画 */
+  @keyframes color-change {
+    0% {
+      background-color: red;
+      left: 0;
+    }
+    25% {
+      background-color: blue;
+      left: 100px;
+    }
+    50% {
+      background-color: green;
+      left: 200px;
+    }
+    75% {
+      background-color: yellow;
+      left: 300px;
+    }
+    100% {
+      background-color: red;
+      left: 400px;
+    }
+  }
+  

@@ -1,0 +1,21 @@
+article .important {
+    color: rgb(0, 0, 0); 
+   }
+   
+   article em {
+    color: rgb(255, 0, 0); 
+   }
+   
+   article .important1 p{
+    color: rgb(255, 2, 175); 
+   }
+
+   article .important2 em {
+    color: rgb(0, 255, 42); 
+   }
+   ul{
+    color: rgb(255, 2, 175);
+}
+a {
+    color: rgb(255, 2, 175);
+}

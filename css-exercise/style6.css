@@ -1,0 +1,21 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #FF6347; /* 这是圆的初始颜色 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: circle-color;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes circle-color {
+  0% { background-color: #FF6347; } /* 开始时是红色 */
+  25% { background-color: #FFFF00; } /* 25%时是黄色 */
+  50% { background-color: #00FF7F; } /* 50%时是绿色 */
+  75% { background-color: #1E90FF; } /* 75%时是蓝色 */
+  100% { background-color: #FF6347; } /* 结束时是红色 */
+}

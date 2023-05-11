@@ -1,0 +1,11 @@
+article .important {
+    color: rgb(0, 0, 0); 
+   }
+   
+   article em {
+    color:rgb(255, 2, 175); 
+   }
+   
+   p{
+       background-color:rgb(255, 2, 175);
+   }
